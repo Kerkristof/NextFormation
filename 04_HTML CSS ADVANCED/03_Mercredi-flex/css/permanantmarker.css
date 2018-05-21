@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'permanant-marker';
+    src: url('../fonts/PermanentMarker-Regular.eot');
+    src: url('../fonts/PermanentMarker-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PermanentMarker-Regular.woff2') format('woff2'),
+        url('../fonts/PermanentMarker-Regular.woff') format('woff'),
+        url('../fonts/PermanentMarker-Regular.ttf') format('truetype'),
+        url('../fonts/PermanentMarker-Regular.svg#PermanentMarker-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

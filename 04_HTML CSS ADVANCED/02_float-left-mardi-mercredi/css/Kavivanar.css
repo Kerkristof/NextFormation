@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Kavivanar';
+    src: url('../fonts/OpenSans-Regular.woff2');
+    src: url('../fonts/Kavivanar-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Kavivanar-Regular.woff2') format('woff2'),
+        url('../fonts/Kavivanar-Regular.woff') format('woff'),
+        url('../fonts/Kavivanar-Regular.ttf') format('truetype'),
+        url('../fonts/Kavivanar-Regular.svg#Kavivanar-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
