@@ -1,3 +1,6 @@
+aller ds cmd au niveau du dossier ds lequel on veut placer les fichiers projets et cloner les dossiers de github
+ecrire la commande ci-dessous après avoir copié l'url ds github
+
 git clone https://github.com/Kerkristof/NextFormation
 
 cd NextFormation
