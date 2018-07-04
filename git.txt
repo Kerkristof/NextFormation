@@ -1,0 +1,15 @@
+git clone https://github.com/Kerkristof/NextFormation
+
+cd NextFormation
+tu modifies les fichiers
+
+root
+
+
+local -> Github :
+  si tu a ajouter des fichiers/dossiers dans le projet : git add .
+  git commit -a -m "j'ai mis a jour le projet"
+  git push
+
+Github -> local :
+ git pull
