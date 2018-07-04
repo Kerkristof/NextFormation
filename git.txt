@@ -3,7 +3,7 @@ git clone https://github.com/Kerkristof/NextFormation
 cd NextFormation
 tu modifies les fichiers
 
-root
+les commandes doivent être executées à la racine du dossier ici NextFormationS
 
 
 local -> Github :
