@@ -1,0 +1,20 @@
+<h2>Mes memos</h2>
+<div class="affMemo">
+
+  <table id="tab">
+    <tr>
+      <th>select</th>
+      <th>Titre</th>
+      <th>Core</th>
+      <th>Theme</th>
+      <th>Check</th>
+    </tr>
+    <tr *ngFor = "let value of memo">
+      <td> <input type="checkbox" name="" id=""> </td>
+      <td>{{value.titre}}</td>
+      <td>{{value.theme}}</td>
+      <td>{{value.core}}</td>
+      <td>{{value.check}}</td>
+    </tr>
+  </table>
+</div>
