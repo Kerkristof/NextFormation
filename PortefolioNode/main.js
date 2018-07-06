@@ -14,9 +14,7 @@ http.createServer(function (request, response) {
             response.writeHead(200, {
                 'Content-Type': 'text/html'
             });
-
             response.write(donne.toString()); /*information contenu dans le read*/
-
         }
         response.end();
     });
