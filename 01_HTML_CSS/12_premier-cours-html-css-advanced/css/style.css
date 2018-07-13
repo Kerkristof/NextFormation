@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+    outline: 0;
+}
+    /* rem relative au body donc mieux pour du responsive_ On peut tout adapter "one-shot" en modifiant le font-size: 62.5% */
+body{
+    font-size: 62.5%;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    min-width: 468px;
+    margin: 0 auto;
+}
+header{
+    background: red;
+    float:left;
+    width: 100%;
+}
+/* first_child: premier enfant
+last-child: dernier enfant
+nth-child(number) : l'enfant numero x*/
+.container nav:last-child{
+    text-align: right;
+}
+nav{
+    float: left;
+    width: 100%;
+}
+nav ul:first-child li{
+    float: left;
+    text-align: left;
+}
+nav ul:first-child li li{
+    float: none;
+    display: block;
+}
+nav li{
+    display: inline;
+}
+nav ul li .sous-menu{
+    position: absolute;
+    display: none;
+}
+nav ul li:hover .sous-menu{
+    display: block;
+}
+a.main-link:link,a.main-link:visited{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: white;
+    background:grey;
+    padding: 8px;
+    float: left;
+}
+a.main-link:hover{
+    background: orange;
+    color:#333;
+}
+a.main-link:active{
+    background: yellow;
+}

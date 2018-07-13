@@ -1,0 +1,44 @@
+h1 {
+	color: red;
+}
+ul {
+	color: blue;
+}
+ol {
+	color: green;
+}
+nav {
+	text-align: center;
+}
+nav ul li {
+	list-style-type: none;
+    display: inline-block;
+    border: solid 2px black;
+    padding: 10px;
+    border-radius: 5px;
+    width: 79px;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    margin-left: 20px;
+}
+section p {
+	font-size: 2em;
+	border: 1px dashed red;
+}
+a p {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	font-size: 1.5em;
+	border: 2px solid red;
+	width: 100px;
+	text-align: center;
+	border-radius: 5px;
+	background-color: red;
+}
+
+a p:hover {
+	text-decoration: none;
+	background-color: yellow;
+}
