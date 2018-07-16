@@ -1,3 +1,3 @@
 # NextFormation
 
-Christophe Lanco 
+Christophe Lanco. 
